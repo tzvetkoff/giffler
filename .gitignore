@@ -1,0 +1,37 @@
+# OSX
+.DS_Store
+._.*
+
+# Autotools, makefiles
+/aclocal.m4
+/m4/libtool.m4
+/m4/lt*.m4
+/autom4te.cache/
+/config/
+configure
+Makefile
+Makefile.in
+config.hpp
+config.hpp.in
+config.log
+config.status
+libtool
+stamp-h1
+
+# Binaries, libraries, objects, other
+/src/giffler
+.libs
+.deps
+*.o
+*.bak
+*~
+
+# Some images for testing
+*.png
+*.jpg
+*.gif
+*.anim
+
+# Just in case
+/tmp
+/build
